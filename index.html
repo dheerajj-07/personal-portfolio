@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dheeraj's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <nav> 
+        <h5>This is Dheeraj, a <span class = "about-me"> </span></h5>
+    </nav>
+    <section class="about">
+        <h2>About Me</h2>
+        <p><span>Hello, I'm Dheeraj,</span><br>
+             A Bachelor of Computer Applications (BCA) student with a strong interest in computer science and programming. Eager to learn and adapt to new technologies and IT trends, I am seeking opportunities to apply my technical skills and contribute to dynamic projects that deliver meaningful results. </p>
+        <img src="assets/profile_pic.jpg" alt="">
+    </section>
+    <hr>
+
+    <section class="contact heding">
+        <h5>contact information</h5>
+        <p>Let's Connect!</p>
+        <div class="cont_icon">
+            <a href="mailto:dheerajmk2611@gmail.com"><img src="assets/mail_new.png" alt="Mail" class="hov"></a>
+            <a href="https://www.instagram.com/.dheerajj.?igsh=ejY2dnRrbTN4Yml4"><img src="assets/insta.png" alt="LinkedIn" class="hov"></a>
+        </div>
+    </section>
+    <hr>
+
+    <section class="skills heding">
+        <h5>My Skills</h5>
+        <div class="skill_img">
+            <img src="assets/html_img.png" alt="">
+            <img src="assets/js-png.png" alt="">
+            <img src="assets/python.png" alt="">
+            <img src="assets/java.png" alt="">
+            <img src="assets/cpp.png" alt="">
+        </div>
+        
+    </section>
+    <hr>
+
+    <!-- <section id="programming-lang" class="heding">
+        <h5>Programming Languages</h5>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar" data-progress="80"></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress-bar" data-progress="60"></div>
+        </div>
+        <div class="skill">
+            <p>Java Script</p>
+            <div class="progress-bar" data-progress="50"></div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="portfolio heding">
+        <h5>Portfolio</h5>
+        <p>Take a look at some of my Projects: </p>
+        <div class="projects">
+            <a href="">Project 1</a> | <a href="">Project 2</a>
+        </div>
+        
+    </section>
+    <hr> -->
+
+    <section class="contact heding">
+        <h5>Contact Me</h5>
+        <form action="post">
+            <div class="form_grup">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+            </div>
+
+             <div class="form_grup">
+                <label for="name">Mail: </label>
+                <input type="email" name="email" id="email" placeholder="Your Mail">
+            </div>
+                
+            <div class="form_grup">
+                    <label for="name">Message: </label>
+                <textarea name="Message" id="message" placeholder="Your Message"></textarea>
+            </div>
+                
+            <div class="form_grup">
+                <button onclick="sendtowhtsap()">Submit</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+<footer>
+    <p>&copy; 2024 Dheeraj Kumar</p>
+</footer>
+
+<div id="dark-mode-toogle" class="dark-mode-toogle">
+    <i class="ri-moon-fill"></i>
+</div>
+
+</html>

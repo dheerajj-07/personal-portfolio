@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    height: 9vw;
+    width: 100%;
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+nav > h5{
+    font-size: 3vw;
+    font-weight: 600;
+}
+nav > p{
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    
+}
+section{
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about > h2{
+    font-size: 2.5vw;
+    padding-left: 1vw;
+    font-weight: 600;
+
+}
+.about >p> span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #A73192;
+    font-weight: 600;
+    
+}
+.about > p{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    padding: 0vw 5vw;
+    width: 50%;
+    margin: 3vw auto;
+}
+.about > img{
+    width: 15vw;
+    border-radius: 50%;
+    margin-top: 2vw;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+hr{
+    width: 50%;
+    margin: 3vw auto;
+    border-top: 1px solid #ccc;
+}
+.heding > h5{
+    font-size: 2.5vw;
+    font-weight: 600;
+
+}
+.heding p{
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    
+}
+
+.cont_icon > a> img{
+    width: 4vw;
+    margin: 2vw 1vw;
+    
+}
+.hov:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: all ease 0.5s;
+}
+.skill_img > img{
+    width: 4.5vw;
+    margin: 2vw 1.2vw;
+}
+/* #programming-lang{
+    margin-top: 2vw;
+
+}
+
+#programming-lang .skill{
+    margin-bottom: 1vw;
+}
+
+#programming-lang .progress-bar{
+    width: 0;
+    height: 20px;
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    border-radius: 10px;
+}
+#programming-lang .progress{
+    height: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+} */
+
+.projects{
+    flex-direction: row;
+    margin-top: 2vw;
+
+}
+.projects > a{
+    margin: 1vw;
+    color: rgb(121, 121, 192);
+    font-size: 1.3vw;
+    text-decoration: none;
+    font-weight: 600;
+}
+form{
+    /* background-color: #ccc; */
+    width: auto;
+    padding: 5vw 14vw;
+    border-radius: 10px;
+    margin: 2vw;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+.form_grup{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw 1vw;
+    min-width: 20vw;
+
+}
+.form_grup > label{
+    margin-bottom: 1vw;
+}
+.form_grup > input,textarea{
+    padding: 7px;
+    width: auto;
+    border-radius: 7px;
+    border: 1px solid gray;
+    
+}
+.form_grup > button{
+    background-color: blue;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-top: 2vw;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+footer{
+    height: 7vw;
+    width: 100%;
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 2vw;
+}
+footer p{
+    font-size: 1.3vw;
+}
+.dark-mode-toogle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.dark-mode-toogle i{
+    margin: 1vw;
+    font-size: 1.5vw;
+}
+
+
+/* css for dark mode */
+
+.dark-mode{
+    background-color: #333;
+    color: white;
+}
+
+.light-mode{
+    background-color: #fff;
+    color: #333;
+}
