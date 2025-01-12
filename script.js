@@ -82,26 +82,6 @@ function send_mail(){
     let mailId="dheerajmk2611@gmail.com";
     
 }
-// progress bar
-
-// document.addEventListener('DOMContentLoaded', ()=>{
-//     const observer = new IntersectionObserver(entries =>{
-//         entries.forEach(entry =>{
-//             if(entry.isIntersecting){
-//                 const progressBar= entry.target.querySelector('.progress-bar');
-//                 const progress = progressBar.dataset.progress;
-//                 progressBar.style.setProperty('--progress', `${progress}%`);
-//                 progressBar.classList.add('animated');
-//                 observer.unobserve(entry.target);
-//             }
-//         });
-//     });
-
-//     const programmingLanguages = document.querySelectorAll('#programming-lang', '.skill');
-//     programmingLanguages.forEach(skill => {
-//         observer.observe(skill);
-//     });
-// });
 
 
 
